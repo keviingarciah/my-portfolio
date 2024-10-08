@@ -74,7 +74,7 @@
       "summary": "Description…"
     }],
     "skills": [{
-      "name": "Web Development",
+      "name": "Next",
       "level": "Master",
       "keywords": [
         "HTML",
@@ -105,6 +105,8 @@
       "highlights": [
         "Won award at AIHacks 2016"
       ],
-      "url": "https://project.com/"
+      "url": "https://github.com/midudev/minimalist-portfolio-json/blob/main/src/components/sections/Projects.astro",
+      "github": "https://github.com/midudev/minimalist-portfolio-json/blob/main/src/components/sections/Projects.astro"
+
     }]
   }
