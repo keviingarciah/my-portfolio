@@ -3,6 +3,8 @@ import Section from "@/components/Section.astro";
 
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
+import WorldMap from "@/icons/WorldMap.astro";
+
 import X from "@/icons/X.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
@@ -25,6 +27,7 @@ const { city, region } = location;
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
+        <WorldMap />
         {city}, {region}
       </span>
       <footer>
@@ -107,6 +110,41 @@ const { city, region } = location;
       object-fit: cover;
       width: 128px;
       border-radius: 16px;
+    }
+
+    span {
+      color: #666;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.85rem;
+      letter-spacing: -0.05rem;
+    }
+
+    footer {
+      color: #555;
+      font-size: 0.65rem;
+      display: flex;
+      gap: 4px;
+      margin-top: 8px;
+    }
+
+    footer a {
+      color: #777;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #eee;
+      padding: 4px;
+      height: 32px;
+      width: 32px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    footer a:hover {
+      background: #eee;
+      border: 1px solid #ddd;
     }
   </style>
 </Section>
