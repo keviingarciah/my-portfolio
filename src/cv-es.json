@@ -1,20 +1,30 @@
 {
     "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
+      "name": "Kevin García",
+      "label": "Ingeniero en Ciencias y Sistemas",
       "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
+      "email": "kevingarciah58@gmail.com",
+      "phone": "(502) 5376-8915",
+      "url": "",
+      "summary": "Resumen...",
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
+        "address": "",
+        "postalCode": "",
+        "city": "Mixco",
+        "countryCode": "GT",
+        "region": "Guatemala"
       },
       "profiles": [{
+        "network": "X",
+        "username": "john",
+        "url": "https://twitter.com/john"
+      },
+      {
+        "network": "X",
+        "username": "john",
+        "url": "https://twitter.com/john"
+      }, 
+      {
         "network": "X",
         "username": "john",
         "url": "https://twitter.com/john"
@@ -31,40 +41,12 @@
         "Started the company"
       ]
     }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
     "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "institution": "Universidad de San Carlos de Guatemala",
+      "url": "https://usac.edu.gt/",
+      "area": "Ingeniería en Ciencias y Sistemas",
+      "startDate": "2021-01-015",
+      "endDate": "2025-05-09"
     }],
     "publications": [{
       "name": "Publication",
@@ -73,30 +55,90 @@
       "url": "https://publication.com",
       "summary": "Description…"
     }],
-    "skills": [{
-      "name": "Next",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
+    "skills": [
+    {
+      "name": "HTML"
+      
+    },
+    {
+      "name": "CSS"
+      
+    },
+    {
+      "name": "JavaScript"
+      
+    },
+    {
+      "name": "TypeScript"
+      
+    },
+    {
+      "name": "Go"
+      
+    },
+    {
+      "name": "Python"
+      
+    },
+    {
+      "name": "Node"
+      
+    },
+    
+    {
+      "name": "NestJS"
+      
+    },
+
+    {
+      "name": "React"
+      
+    },
+    {
+      "name": "NextJS"
+      
+    },
+    {
+      "name": "Svelte"
+      
+    },
+    {
+      "name": "Astro"
+      
+    },
+    {
+      "name": "Tailwind"
+      
+    },
+    {
+      "name": "PostgreSQL"
+      
+    },
+    {
+      "name": "MongoDB"
+      
+    },
+    {
+      "name": "Git"
+      
+    },
+    {
+      "name": "Docker"
+      
+    },
+    {
+      "name": "Kubernetes"
+      
+    },
+    {
+      "name": "AWS"
+      
+    },
+    {
+      "name": "GCP"
+      
+    }
+  ],
     "projects": [{
       "name": "Project",
       "startDate": "2019-01-01",
