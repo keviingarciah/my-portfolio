@@ -153,11 +153,18 @@
   ],
   "publications": [
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "IA en simulaciones virtuales: Transformando la ingeniería de proyectos reales",
+      "publisher": "Revista Ciencias, Sistemas y Tecnología",
+      "releaseDate": "2025-10-01",
+      "url": "https://revistaecys.github.io/26edicion/T2_pareja07.html",
+      "summary": "Artículo que explora el uso de la inteligencia artificial en simulaciones virtuales aplicadas a la ingeniería de proyectos reales. Se discuten casos de estudio y se presentan resultados obtenidos en diversas aplicaciones industriales."
+    },
+    {
+      "name": "Maximización en la ingeniería de requerimientos con inteligencia artificial",
+      "publisher": "Revista Ciencias, Sistemas y Tecnología",
+      "releaseDate": "2024-10-01",
+      "url": "https://revistaecys.github.io/25Edicion/15_pareja33.html",
+      "summary": "Artículo que aborda la maximización de la ingeniería de requerimientos mediante el uso de inteligencia artificial. Se presentan técnicas y herramientas que facilitan la recolección y análisis de requerimientos en proyectos de software."
     }
   ]
 }
