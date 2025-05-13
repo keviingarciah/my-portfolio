@@ -1,164 +1,163 @@
 {
-    "basics": {
-      "name": "Kevin García",
-      "label": "Ingeniero en Ciencias y Sistemas",
-      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
-      "email": "kevingarciah58@gmail.com",
-      "phone": "(502) 5376-8915",
-      "url": "",
-      "summary": "Resumen...",
-      "location": {
-        "address": "",
-        "postalCode": "",
-        "city": "Mixco",
-        "countryCode": "GT",
-        "region": "Guatemala"
-      },
-      "profiles": [{
-        "network": "X",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      },
-      {
-        "network": "X",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }, 
-      {
-        "network": "X",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+  "basics": {
+    "name": "Kevin García",
+    "label": "Ingeniero en Ciencias y Sistemas",
+    "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+    "email": "kevingarciah58@gmail.com",
+    "phone": "(502) 5376-8915",
+    "url": "",
+    "summary": "Apasionado por el desarrollo de software, con formación sólida en Ingeniería en Ciencias y Sistemas (pensum cerrado) y experiencia como auxiliar de cátedra en áreas tecnológicas. Me especializo en desarrollo Full Stack, con conocimientos en arquitectura de sistemas, bases de datos, microservicios y metodologías ágiles. Comprometido con la mejora continua, la escritura de código limpio y el trabajo en equipo.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Mixco",
+      "countryCode": "GT",
+      "region": "Guatemala"
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "education": [{
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "keviingarciah",
+        "url": "https://www.linkedin.com/in/keviingarciah/"
+      },
+      {
+        "network": "GitHub",
+        "username": "keviingarciah",
+        "url": "https://github.com/keviingarciah"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Alineados",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2024-11-01",
+      "endDate": "2025-05-09",
+      "summary": "Desarrollador Full Stack en el proyecto Alineados, responsable del desarrollo tanto del backend como del frontend de la aplicación. Para el backend, se utilizó Golang junto con Bazel como sistema de construcción; en el frontend, se trabajó con Svelte y SvelteKit. Se implementó una arquitectura basada en microservicios y un sistema de autenticación utilizando OIDC (OpenID Connect)."
+    },
+    {
+      "name": "Universidad de San Carlos de Guatemala",
+      "position": "Auxiliar de Cátedra",
+      "url": "https://usac.edu.gt/",
+      "startDate": "2024-07-14",
+      "endDate": "2025-05-09",
+      "summary": "Auxiliar de Cátedra en la Universidad de San Carlos de Guatemala, a cargo del laboratorio de la asignatura Manejo e Implementación de Archivos, perteneciente a la carrera de Ingeniería en Ciencias y Sistemas."
+    },
+    {
+      "name": "Tutomath",
+      "position": "Tutor de Computación",
+      "url": "https://www.facebook.com/tutomath1401/",
+      "startDate": "2022-07-15",
+      "endDate": "2023-11-30",
+      "summary": "Tutor de Computación en Tutomath, donde impartí clases orientadas a aspirantes a la Universidad de San Carlos de Guatemala. Enfocado en la preparación para la prueba específica de admisión, con énfasis en los temas clave del área de computación."
+    }
+  ],
+  "education": [
+    {
       "institution": "Universidad de San Carlos de Guatemala",
       "url": "https://usac.edu.gt/",
       "area": "Ingeniería en Ciencias y Sistemas",
       "startDate": "2021-01-015",
       "endDate": "2025-05-09"
-    }],
-    "publications": [{
+    }
+  ],
+  "projects": [
+    {
+      "name": "Repositorio de Laboratorio",
+      "description": "Repositorio de apoyo para el laboratorio de Manejo e Implementación de Archivos en la Universidad de San Carlos de Guatemala, con ejemplos prácticos para reforzar los conceptos vistos en clase.",
+      "highlights": [
+        "11+ ejemplos de código",
+        "Uso de Golang",
+        "Documentación completa"
+      ],
+      "url": "https://keviingarciah.github.io/MIA_LAB_1S_2025/",
+      "github": "https://github.com/keviingarciah/MIA_LAB_1S_2025"
+    },
+    {
+      "name": "MazeBot",
+      "description": "Proyecto realizado para la materia de Inteligencia Artificial, donde se implementó un algoritmo de búsqueda para resolver laberintos. El proyecto incluye una interfaz gráfica que permite visualizar el proceso de búsqueda y la solución encontrada.",
+      "highlights": [
+        "Utiliza algoritmos de búsqueda",
+        "Modelado en 3D",
+        "Uso de Three.js"
+      ],
+      "url": "https://keviingarciah.github.io/MIA_LAB_1S_2025/",
+      "github": "https://keviingarciah.github.io/IA1_1S2025_P3_G15/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "Go"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "Node"
+    },
+    {
+      "name": "NestJS"
+    },
+    {
+      "name": "Astro"
+    },
+    {
+      "name": "React"
+    },
+    {
+      "name": "Next.js"
+    },
+    {
+      "name": "Svelte"
+    },
+    {
+      "name": "TailwindCSS"
+    },
+    {
+      "name": "PostgreSQL"
+    },
+    {
+      "name": "MongoDB"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Linux"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "Kubernetes"
+    },
+    {
+      "name": "AWS"
+    },
+    {
+      "name": "GCP"
+    }
+  ],
+  "publications": [
+    {
       "name": "Publication",
       "publisher": "Company",
       "releaseDate": "2014-10-01",
       "url": "https://publication.com",
       "summary": "Description…"
-    }],
-    "skills": [
-    {
-      "name": "HTML"
-      
-    },
-    {
-      "name": "CSS"
-      
-    },
-    {
-      "name": "JavaScript"
-      
-    },
-    {
-      "name": "TypeScript"
-      
-    },
-    {
-      "name": "Go"
-      
-    },
-    {
-      "name": "Python"
-      
-    },
-    {
-      "name": "Node"
-      
-    },
-    
-    {
-      "name": "NestJS"
-      
-    },
-
-    {
-      "name": "React"
-      
-    },
-    {
-      "name": "NextJS"
-      
-    },
-    {
-      "name": "Svelte"
-      
-    },
-    {
-      "name": "Astro"
-      
-    },
-    {
-      "name": "Tailwind"
-      
-    },
-    {
-      "name": "PostgreSQL"
-      
-    },
-    {
-      "name": "MongoDB"
-      
-    },
-    {
-      "name": "Git"
-      
-    },
-    {
-      "name": "Docker"
-      
-    },
-    {
-      "name": "Kubernetes"
-      
-    },
-    {
-      "name": "AWS"
-      
-    },
-    {
-      "name": "GCP"
-      
-    }
-  ],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://github.com/midudev/minimalist-portfolio-json/blob/main/src/components/sections/Projects.astro",
-      "github": "https://github.com/midudev/minimalist-portfolio-json/blob/main/src/components/sections/Projects.astro"
-    },
-    {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://github.com/midudev/minimalist-portfolio-json/blob/main/src/components/sections/Projects.astro"
     }
   ]
-  }
+}

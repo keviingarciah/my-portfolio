@@ -6,7 +6,7 @@ import GitHub from "@/icons/GitHub.astro";
 import { projects } from "@/cv-es.json";
 ---
 
-<Section title="Projects">
+<Section title="Proyectos">
   <ul>
     {
       projects.map(({ name, description, url, github, highlights }) => {
@@ -15,23 +15,25 @@ import { projects } from "@/cv-es.json";
             <article>
               <header>
                 <h3>
-                  <a
-                    href={url}
-                    target="_blank"
-                    title={`Ver el proyecto ${name}`}
-                  >
-                    {name}
-                  </a>
-                  {github && (
+                  <div class="title">
                     <a
-                      class="github-code-link"
-                      href={github}
+                      href={url}
                       target="_blank"
-                      title={`Ver código fuente del proyecto ${name}`}
+                      title={`Ver el proyecto ${name}`}
                     >
-                      <GitHub />
+                      {name}
                     </a>
-                  )}
+                    {github && (
+                      <a
+                        class="github-code-link"
+                        href={github}
+                        target="_blank"
+                        title={`Ver código fuente del proyecto ${name}`}
+                      >
+                        <GitHub />
+                      </a>
+                    )}
+                  </div>
                 </h3>
                 <p>{description}</p>
               </header>
@@ -112,7 +114,22 @@ import { projects } from "@/cv-es.json";
     padding: 0.2rem 0.6rem;
   }
 
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
   .github-code-link {
-    margin-left: 5px;
+    display: inline-flex;
+    align-items: center;
+    color: #666;
+    height: 20px;
+    width: 20px;
+    transition: color 0.3s ease;
+  }
+
+  .github-code-link:hover {
+    color: #111;
   }
 </style>
