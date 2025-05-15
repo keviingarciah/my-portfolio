@@ -2,7 +2,7 @@
   "basics": {
     "name": "Kevin García",
     "label": "Ingeniero en Ciencias y Sistemas",
-    "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
+    "image": "/me.jpeg",
     "email": "kevingarciah58@gmail.com",
     "phone": "(502) 5376-8915",
     "url": "",
@@ -84,6 +84,19 @@
       ],
       "url": "https://keviingarciah.github.io/MIA_LAB_1S_2025/",
       "github": "https://keviingarciah.github.io/IA1_1S2025_P3_G15/"
+    },
+    {
+      "name": "Sistema de Votaciones de Gran Tráfico",
+      "description": "Proyecto desarrollado para el curso de Arquitectura de Software. Consiste en un sistema de votación en línea diseñado para manejar un alto volumen de tráfico, aplicado a un concurso de bandas de música guatemaltecas.",
+      "highlights": [
+        "Uso gRPC",
+        "Uso WebAssembly (Wasm)",
+        "Uso de Kafka",
+        "Uso Grafana",
+        "Despliegue en GCP",
+        "Microservicios"
+      ],
+      "github": "https://github.com/keviingarciah/SO1_1S2024_202113553/tree/main/PROYECTOS/PROYECTO2"
     }
   ],
   "skills": [
@@ -133,10 +146,13 @@
       "name": "MongoDB"
     },
     {
-      "name": "Git"
+      "name": "Redis"
     },
     {
       "name": "Linux"
+    },
+    {
+      "name": "Git"
     },
     {
       "name": "Docker"
