@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Kevin García",
-    "label": "Ingeniero en Ciencias y Sistemas",
+    "label": "Desarrollador Full Stack",
     "image": "/me.jpeg",
     "email": "kevingarciah58@gmail.com",
-    "phone": "(502) 5376-8915",
+    "phone": "(+502) 5376-8915",
     "url": "",
-    "summary": "Apasionado por el desarrollo de software, con formación sólida en Ingeniería en Ciencias y Sistemas (pensum cerrado) y experiencia como auxiliar de cátedra en áreas tecnológicas. Me especializo en desarrollo Full Stack, con conocimientos en arquitectura de sistemas, bases de datos, microservicios y metodologías ágiles. Comprometido con la mejora continua, la escritura de código limpio y el trabajo en equipo.",
+    "summary": "Desarrollador de software con enfoque en full stack y arquitectura de sistemas, especializado en la construcción de aplicaciones escalables. Experiencia en diseño de microservicios, integración de APIs y despliegue en entornos cloud. Utilizo herramientas de inteligencia artificial para acelerar el desarrollo, automatizar tareas y optimizar el ciclo de entrega. Fuerte orientación a diseño de soluciones, toma de decisiones técnicas y mejora continua.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Mixco",
+      "city": "Guatemala",
       "countryCode": "GT",
       "region": "Guatemala"
     },
@@ -29,94 +29,125 @@
   },
   "work": [
     {
-      "name": "Alineados",
-      "position": "Full Stack Developer",
+      "name": "Banco GyT Continental - SETESA",
+      "position": "Desarrollador Full Stack",
       "url": "",
-      "startDate": "2024-11-01",
-      "endDate": "2025-05-09",
-      "summary": "Desarrollador Full Stack en el proyecto Alineados, responsable del desarrollo tanto del backend como del frontend de la aplicación. Para el backend, se utilizó Golang junto con Bazel como sistema de construcción; en el frontend, se trabajó con Svelte y SvelteKit. Se implementó una arquitectura basada en microservicios y un sistema de autenticación utilizando OIDC (OpenID Connect)."
+      "startDate": "2025-09-01",
+      "endDate": null,
+      "summary": "Desarrollo y mantenimiento de plataforma de Cuenta Digital, participando en frontend, backend y móvil. Implementación de nuevas funcionalidades y resolución de incidencias críticas, mejorando la estabilidad del sistema. Participación en sprints bajo Scrum, contribuyendo a entregas continuas y mejora del flujo de desarrollo. Uso de herramientas de inteligencia artificial para acelerar desarrollo, generación de código y resolución de problemas."
+    },
+    {
+      "name": "Grupo ASYS",
+      "position": "Analista Regional de Soporte",
+      "url": "",
+      "startDate": "2025-06-01",
+      "endDate": "2025-09-01",
+      "summary": "Gestión y resolución de incidencias en sistemas críticos a nivel regional. Coordinación con equipos multidisciplinarios en Centroamérica para asegurar continuidad operativa. Análisis y solución de problemas técnicos en procesos del negocio."
     },
     {
       "name": "Universidad de San Carlos de Guatemala",
       "position": "Auxiliar de Cátedra",
       "url": "https://usac.edu.gt/",
-      "startDate": "2024-07-14",
-      "endDate": "2025-05-09",
-      "summary": "Auxiliar de Cátedra en la Universidad de San Carlos de Guatemala, a cargo del laboratorio de la asignatura Manejo e Implementación de Archivos, perteneciente a la carrera de Ingeniería en Ciencias y Sistemas."
-    },
-    {
-      "name": "Tutomath",
-      "position": "Tutor de Computación",
-      "url": "https://www.facebook.com/tutomath1401/",
-      "startDate": "2022-07-15",
-      "endDate": "2023-11-30",
-      "summary": "Tutor de Computación en Tutomath, donde impartí clases orientadas a aspirantes a la Universidad de San Carlos de Guatemala. Enfocado en la preparación para la prueba específica de admisión, con énfasis en los temas clave del área de computación."
+      "startDate": "2024-07-01",
+      "endDate": "2025-05-01",
+      "summary": "Encargado del laboratorio de Manejo e Implementación de Archivos. Desarrollo de prácticas y acompañamiento técnico a estudiantes."
     }
   ],
   "education": [
     {
       "institution": "Universidad de San Carlos de Guatemala",
       "url": "https://usac.edu.gt/",
-      "area": "Ingeniería en Ciencias y Sistemas",
-      "startDate": "2021-01-015",
-      "endDate": "2025-05-09"
+      "area": "Ingeniería en Ciencias y Sistemas (Pensum cerrado)",
+      "studyType": "Ingeniería",
+      "startDate": "2021-01-01",
+      "endDate": "2025-01-01"
     }
   ],
   "projects": [
     {
-      "name": "Repositorio de Laboratorio",
-      "description": "Repositorio de apoyo para el laboratorio de Manejo e Implementación de Archivos en la Universidad de San Carlos de Guatemala, con ejemplos prácticos para reforzar los conceptos vistos en clase.",
+      "name": "FlexPilates",
+      "description": "Sistema de gestión para gimnasio. Diseño e implementación del backend completo en Golang para gestión de citas y usuarios. Desarrollo de landing page optimizada utilizando Astro. Integración de frontend (Angular) y app móvil (Ionic) con APIs backend. Despliegue y mantenimiento en producción usando Railway.",
+      "highlights": [
+        "Golang",
+        "Angular",
+        "Ionic",
+        "Astro",
+        "Railway"
+      ],
+      "url": "https://flexpilatesgt.com/",
+      "github": ""
+    },
+    {
+      "name": "Bioguard AI",
+      "description": "Aplicación de análisis microbiológico. Desarrollo de backend en FastAPI para procesamiento de imágenes. Integración de app móvil (Ionic) con APIs backend. Implementación de lógica de inteligencia artificial para conteo de colonias bacterianas. Despliegue en Railway.",
+      "highlights": [
+        "FastAPI",
+        "Ionic",
+        "Inteligencia Artificial",
+        "Railway"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "PROJAH",
+      "description": "Sitio web corporativo para catálogo de productos. Desarrollo con Astro optimizado para SEO y rendimiento. Supabase para base de datos y autenticación.",
+      "highlights": [
+        "Astro",
+        "Supabase"
+      ],
+      "url": "https://corpoprojah.com/",
+      "github": ""
+    },
+    {
+      "name": "HUEC",
+      "description": "Sitio web institucional para la Conferencia HUEC 1953. Desarrollo con Astro para presencia digital y difusión de eventos. Configuración de correos corporativos mediante Microsoft 365.",
+      "highlights": [
+        "Astro",
+        "Microsoft 365"
+      ],
+      "url": "https://conferencehuec1953.org/",
+      "github": ""
+    },
+    {
+      "name": "Repositorio de Laboratorio de Archivos",
+      "description": "Material educativo técnico. Desarrollo de repositorio educativo con ejemplos prácticos en Golang enfocados en manejo de archivos y estructuras de almacenamiento. Implementación de más de 11 casos prácticos cubriendo lectura/escritura, estructuras de datos persistentes y simulación de sistemas de archivos. Documentación técnica estructurada para aprendizaje autónomo.",
       "highlights": [
         "11+ ejemplos de código",
-        "Uso de Golang",
+        "Golang",
         "Documentación completa"
       ],
       "url": "https://keviingarciah.github.io/MIA_LAB_1S_2025/",
       "github": "https://github.com/keviingarciah/MIA_LAB_1S_2025"
-    },
-    {
-      "name": "MazeBot",
-      "description": "Proyecto realizado para la materia de Inteligencia Artificial, donde se implementó un algoritmo de búsqueda para resolver laberintos. El proyecto incluye una interfaz gráfica que permite visualizar el proceso de búsqueda y la solución encontrada.",
-      "highlights": [
-        "Utiliza algoritmos de búsqueda",
-        "Modelado en 3D",
-        "Uso de Three.js"
-      ],
-      "url": "https://keviingarciah.github.io/IA1_1S2025_P3_G15/",
-      "github": "https://github.com/keviingarciah/IA1_1S2025_P3_G15/"
-    },
-    {
-      "name": "Sistema de Votaciones de Gran Tráfico",
-      "description": "Proyecto desarrollado para el curso de Arquitectura de Software. Consiste en un sistema de votación en línea diseñado para manejar un alto volumen de tráfico, aplicado a un concurso de bandas de música guatemaltecas.",
-      "highlights": [
-        "Uso gRPC",
-        "Uso WebAssembly (Wasm)",
-        "Uso de Kafka",
-        "Uso Grafana",
-        "Despliegue en GCP",
-        "Microservicios"
-      ],
-      "github": "https://github.com/keviingarciah/SO1_1S2024_202113553/tree/main/PROYECTOS/PROYECTO2"
     }
   ],
   "skills": [
     {
-      "name": "HTML"
-    },
-    {
-      "name": "CSS"
-    },
-    {
-      "name": "JavaScript"
+      "name": "Go"
     },
     {
       "name": "TypeScript"
     },
     {
-      "name": "Go"
+      "name": "JavaScript"
     },
     {
       "name": "Python"
+    },
+    {
+      "name": "SQL"
+    },
+    {
+      "name": "Angular"
+    },
+    {
+      "name": "Astro"
+    },
+    {
+      "name": "Ionic"
+    },
+    {
+      "name": "TailwindCSS"
     },
     {
       "name": "Node"
@@ -125,19 +156,7 @@
       "name": "NestJS"
     },
     {
-      "name": "Astro"
-    },
-    {
-      "name": "React"
-    },
-    {
-      "name": "Next.js"
-    },
-    {
-      "name": "Svelte"
-    },
-    {
-      "name": "TailwindCSS"
+      "name": "FastAPI"
     },
     {
       "name": "PostgreSQL"
@@ -149,10 +168,7 @@
       "name": "Redis"
     },
     {
-      "name": "Linux"
-    },
-    {
-      "name": "Git"
+      "name": "MySQL"
     },
     {
       "name": "Docker"
@@ -165,22 +181,28 @@
     },
     {
       "name": "GCP"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Linux"
     }
   ],
   "publications": [
     {
       "name": "IA en simulaciones virtuales: Transformando la ingeniería de proyectos reales",
-      "publisher": "Revista Ciencias, Sistemas y Tecnología",
-      "releaseDate": "2025-10-01",
+      "publisher": "Revista ECYS",
+      "releaseDate": "2025-01-01",
       "url": "https://revistaecys.github.io/26edicion/T2_pareja07.html",
-      "summary": "Artículo que explora el uso de la inteligencia artificial en simulaciones virtuales aplicadas a la ingeniería de proyectos reales. Se discuten casos de estudio y se presentan resultados obtenidos en diversas aplicaciones industriales."
+      "summary": "Uso de inteligencia artificial en simulaciones aplicadas a ingeniería."
     },
     {
-      "name": "Maximización en la ingeniería de requerimientos con inteligencia artificial",
-      "publisher": "Revista Ciencias, Sistemas y Tecnología",
-      "releaseDate": "2024-10-01",
+      "name": "IA en requerimientos de software: Maximización en la ingeniería de requerimientos",
+      "publisher": "Revista ECYS",
+      "releaseDate": "2024-01-01",
       "url": "https://revistaecys.github.io/25Edicion/15_pareja33.html",
-      "summary": "Artículo que aborda la maximización de la ingeniería de requerimientos mediante el uso de inteligencia artificial. Se presentan técnicas y herramientas que facilitan la recolección y análisis de requerimientos en proyectos de software."
+      "summary": "Aplicación de IA en análisis y optimización de requerimientos."
     }
   ]
 }

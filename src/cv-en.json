@@ -1,122 +1,207 @@
 {
-    "basics": {
-      "name": "John Doe",
-      "label": "Programmer",
-      "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
-      "email": "john@gmail.com",
-      "phone": "(912) 555-4321",
-      "url": "https://johndoe.com",
-      "summary": "A summary of John Doe…",
-      "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
-      },
-      "profiles": [{
-        "network": "X",
-        "username": "john",
-        "url": "https://twitter.com/john"
-      }]
+  "basics": {
+    "name": "Kevin García",
+    "label": "Full Stack Developer",
+    "image": "/me.jpeg",
+    "email": "kevingarciah58@gmail.com",
+    "phone": "(+502) 5376-8915",
+    "url": "",
+    "summary": "Software developer focused on full stack development and systems architecture, specialized in building scalable applications. Experience in microservices design, API integration, and cloud deployments. I leverage AI tools to accelerate development, automate tasks, and optimize the delivery cycle. Strong orientation toward solution design, technical decision-making, and continuous improvement.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Guatemala",
+      "countryCode": "GT",
+      "region": "Guatemala"
     },
-    "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Started the company"
-      ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }],
-    "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
-    }],
-    "skills": [{
-      "name": "Next",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
-    }],
-    "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
-    }],
-    "interests": [{
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }],
-    "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://github.com/midudev/minimalist-portfolio-json/blob/main/src/components/sections/Projects.astro",
-      "github": "https://github.com/midudev/minimalist-portfolio-json/blob/main/src/components/sections/Projects.astro"
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "keviingarciah",
+        "url": "https://www.linkedin.com/in/keviingarciah/"
+      },
+      {
+        "network": "GitHub",
+        "username": "keviingarciah",
+        "url": "https://github.com/keviingarciah"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Banco GyT Continental - SETESA",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2025-09-01",
+      "endDate": null,
+      "summary": "Development and maintenance of a Digital Account platform, contributing to frontend, backend, and mobile. Implementation of new features and resolution of critical incidents, improving system stability. Participation in Scrum sprints, contributing to continuous delivery and development flow improvement. Use of AI tools to accelerate development, code generation, and problem solving."
     },
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
+      "name": "Grupo ASYS",
+      "position": "Regional Support Analyst",
+      "url": "",
+      "startDate": "2025-06-01",
+      "endDate": "2025-09-01",
+      "summary": "Management and resolution of incidents in critical systems at a regional level. Coordination with multidisciplinary teams across Central America to ensure operational continuity. Analysis and resolution of technical issues in business processes."
+    },
+    {
+      "name": "Universidad de San Carlos de Guatemala",
+      "position": "Teaching Assistant",
+      "url": "https://usac.edu.gt/",
+      "startDate": "2024-07-01",
+      "endDate": "2025-05-01",
+      "summary": "In charge of the File Management and Implementation lab course. Developed lab exercises and provided technical support to students."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad de San Carlos de Guatemala",
+      "url": "https://usac.edu.gt/",
+      "area": "Computer Science and Systems Engineering (Completed)",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2021-01-01",
+      "endDate": "2025-01-01"
+    }
+  ],
+  "projects": [
+    {
+      "name": "FlexPilates",
+      "description": "Gym management system. Designed and implemented a complete backend in Golang for appointment and user management. Developed an optimized landing page using Astro. Integrated frontend (Angular) and mobile app (Ionic) with backend APIs. Deployed and maintained in production using Railway.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Golang",
+        "Angular",
+        "Ionic",
+        "Astro",
+        "Railway"
       ],
-      "url": "https://github.com/midudev/minimalist-portfolio-json/blob/main/src/components/sections/Projects.astro"
+      "url": "https://flexpilatesgt.com/",
+      "github": ""
+    },
+    {
+      "name": "Bioguard AI",
+      "description": "Microbiological analysis application. Developed a backend in FastAPI for image processing. Integrated mobile app (Ionic) with backend APIs. Implemented AI logic for bacterial colony counting. Deployed on Railway.",
+      "highlights": [
+        "FastAPI",
+        "Ionic",
+        "Artificial Intelligence",
+        "Railway"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "PROJAH",
+      "description": "Corporate website for product catalog and institutional presence. Built with Astro, optimized for SEO and performance. Configured corporate email accounts using Microsoft 365.",
+      "highlights": [
+        "Astro",
+        "Microsoft 365"
+      ],
+      "url": "https://corpoprojah.com/",
+      "github": ""
+    },
+    {
+      "name": "HUEC",
+      "description": "Institutional website for the HUEC 1953 Conference. Built with Astro to establish a digital presence and promote events.",
+      "highlights": [
+        "Astro"
+      ],
+      "url": "https://conferencehuec1953.org/",
+      "github": ""
+    },
+    {
+      "name": "File Management Lab Repository",
+      "description": "Technical educational material. Developed an educational repository with practical Golang examples focused on file handling and storage structures. Implemented 11+ practical cases covering read/write operations, persistent data structures, and file system simulation. Structured technical documentation for self-paced learning, published as a website and GitHub repository.",
+      "highlights": [
+        "11+ code examples",
+        "Golang",
+        "Full documentation"
+      ],
+      "url": "https://keviingarciah.github.io/MIA_LAB_1S_2025/",
+      "github": "https://github.com/keviingarciah/MIA_LAB_1S_2025"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Go"
+    },
+    {
+      "name": "TypeScript"
+    },
+    {
+      "name": "JavaScript"
+    },
+    {
+      "name": "Python"
+    },
+    {
+      "name": "SQL"
+    },
+    {
+      "name": "Angular"
+    },
+    {
+      "name": "Astro"
+    },
+    {
+      "name": "Ionic"
+    },
+    {
+      "name": "TailwindCSS"
+    },
+    {
+      "name": "Node"
+    },
+    {
+      "name": "NestJS"
+    },
+    {
+      "name": "FastAPI"
+    },
+    {
+      "name": "PostgreSQL"
+    },
+    {
+      "name": "MongoDB"
+    },
+    {
+      "name": "Redis"
+    },
+    {
+      "name": "MySQL"
+    },
+    {
+      "name": "Docker"
+    },
+    {
+      "name": "Kubernetes"
+    },
+    {
+      "name": "AWS"
+    },
+    {
+      "name": "GCP"
+    },
+    {
+      "name": "Git"
+    },
+    {
+      "name": "Linux"
+    }
+  ],
+  "publications": [
+    {
+      "name": "AI in Virtual Simulations: Transforming Engineering of Real Projects",
+      "publisher": "ECYS Journal",
+      "releaseDate": "2025-01-01",
+      "url": "https://revistaecys.github.io/26edicion/T2_pareja07.html",
+      "summary": "Use of artificial intelligence in simulations applied to engineering."
+    },
+    {
+      "name": "AI in Software Requirements: Maximizing Requirements Engineering",
+      "publisher": "ECYS Journal",
+      "releaseDate": "2024-01-01",
+      "url": "https://revistaecys.github.io/25Edicion/15_pareja33.html",
+      "summary": "Application of AI in the analysis and optimization of software requirements."
     }
   ]
-  }
+}
