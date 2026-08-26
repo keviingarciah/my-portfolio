@@ -8,9 +8,8 @@ import { education } from "@/cv-es.json";
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {
-        const startYear = new Date(startDate).getFullYear();
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual";
+        const startYear = startDate.slice(0, 4);
+        const endYear = endDate != null ? endDate.slice(0, 4) : "Actual";
         const years = `${startYear} - ${endYear}`;
 
         return (

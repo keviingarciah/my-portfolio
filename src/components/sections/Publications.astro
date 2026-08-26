@@ -8,7 +8,7 @@ import { publications } from "@/cv-es.json";
   <ul>
     {
       publications.map(({ name, publisher, releaseDate, url, summary }) => {
-        const year = new Date(releaseDate).getFullYear();
+        const year = releaseDate.slice(0, 4);
 
         return (
           <li>

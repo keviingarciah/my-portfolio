@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Kevin García",
-    "label": "Desarrollador Full Stack",
+    "label": "Software Engineer | Full Stack, Backend & DevOps",
     "image": "/me.jpeg",
     "email": "kevingarciah58@gmail.com",
     "phone": "(+502) 5376-8915",
     "url": "",
-    "summary": "Desarrollador de software con enfoque en full stack y arquitectura de sistemas, especializado en la construcción de aplicaciones escalables. Experiencia en diseño de microservicios, integración de APIs y despliegue en entornos cloud. Utilizo herramientas de inteligencia artificial para acelerar el desarrollo, automatizar tareas y optimizar el ciclo de entrega. Fuerte orientación a diseño de soluciones, toma de decisiones técnicas y mejora continua.",
+    "summary": "Software Engineer con enfoque Full Stack, Backend y DevOps. Experiencia desarrollando aplicaciones web y móviles en entornos empresariales, integración de APIs REST, resolución de incidencias, diseño de soluciones y despliegue de sistemas en producción. He trabajado con TypeScript, Angular, Ionic, Go, Python/FastAPI, bases de datos SQL/NoSQL, Docker, CI/CD, microservicios e infraestructura self-hosted.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Guatemala",
+      "city": "Mixco",
       "countryCode": "GT",
       "region": "Guatemala"
     },
@@ -30,11 +30,11 @@
   "work": [
     {
       "name": "Banco GyT Continental - SETESA",
-      "position": "Desarrollador Full Stack",
+      "position": "Software Engineer",
       "url": "",
       "startDate": "2025-09-01",
       "endDate": null,
-      "summary": "Desarrollo y mantenimiento de plataforma de Cuenta Digital, participando en frontend, backend y móvil. Implementación de nuevas funcionalidades y resolución de incidencias críticas, mejorando la estabilidad del sistema. Participación en sprints bajo Scrum, contribuyendo a entregas continuas y mejora del flujo de desarrollo. Uso de herramientas de inteligencia artificial para acelerar desarrollo, generación de código y resolución de problemas."
+      "summary": "Desarrollo y mantenimiento de la plataforma de Cuenta Digital en entorno bancario, participando en componentes web, móviles e integración con servicios backend. Implementación de funcionalidades con Angular, Ionic, TypeScript y consumo de APIs REST. Análisis y resolución de incidencias técnicas, validación de flujos funcionales y apoyo a la estabilidad de módulos en producción. Participación en sprints bajo Scrum, revisión de requerimientos, pruebas funcionales y colaboración con equipos multidisciplinarios. Uso de herramientas de inteligencia artificial para análisis de problemas, generación de código, depuración, documentación y aceleración del ciclo de desarrollo."
     },
     {
       "name": "Grupo ASYS",
@@ -42,7 +42,7 @@
       "url": "",
       "startDate": "2025-06-01",
       "endDate": "2025-09-01",
-      "summary": "Gestión y resolución de incidencias en sistemas críticos a nivel regional. Coordinación con equipos multidisciplinarios en Centroamérica para asegurar continuidad operativa. Análisis y solución de problemas técnicos en procesos del negocio."
+      "summary": "Gestión, análisis y resolución de incidencias en sistemas críticos utilizados a nivel regional. Coordinación con equipos multidisciplinarios en Centroamérica para asegurar continuidad operativa y seguimiento de problemas técnicos. Diagnóstico de errores, trazabilidad de casos, análisis de causa raíz y documentación de soluciones aplicadas. Comunicación técnica con usuarios internos, áreas de negocio y equipos de soporte."
     },
     {
       "name": "Universidad de San Carlos de Guatemala",
@@ -50,25 +50,36 @@
       "url": "https://usac.edu.gt/",
       "startDate": "2024-07-01",
       "endDate": "2025-05-01",
-      "summary": "Encargado del laboratorio de Manejo e Implementación de Archivos. Desarrollo de prácticas y acompañamiento técnico a estudiantes."
+      "summary": "Auxiliar del laboratorio de Manejo e Implementación de Archivos, utilizando Go como lenguaje principal. Desarrollo de prácticas técnicas sobre manejo de archivos, estructuras de datos persistentes y simulación de sistemas de almacenamiento. Creación de material educativo, guías técnicas, ejemplos reutilizables y documentación publicada como sitio web y repositorio en GitHub. Acompañamiento técnico a estudiantes, revisión de prácticas y explicación de conceptos de programación, estructuras de datos y persistencia."
     }
   ],
   "education": [
     {
       "institution": "Universidad de San Carlos de Guatemala",
       "url": "https://usac.edu.gt/",
-      "area": "Ingeniería en Ciencias y Sistemas (Pensum cerrado)",
+      "area": "Ingeniería en Ciencias y Sistemas | Graduado, 2026",
       "studyType": "Ingeniería",
       "startDate": "2021-01-01",
-      "endDate": "2025-01-01"
+      "endDate": "2026-01-01"
     }
   ],
   "projects": [
     {
-      "name": "FlexPilates",
-      "description": "Sistema de gestión para gimnasio. Diseño e implementación del backend completo en Golang para gestión de citas y usuarios. Desarrollo de landing page optimizada utilizando Astro. Integración de frontend (Angular) y app móvil (Ionic) con APIs backend. Despliegue y mantenimiento en producción usando Railway.",
+      "name": "Agroindustrias Successo",
+      "description": "Plataforma de gestión y seguimiento de proyectos. Diseño de la arquitectura del sistema para una gestión integral, permitiendo el seguimiento desde el registro inicial hasta la finalización a través de distintas fases operativas. Backend en Go con la mayor parte de la lógica de negocio y los flujos del ciclo de vida de los proyectos. Definición de la estructura y comunicación entre componentes, priorizando escalabilidad, mantenibilidad y separación de responsabilidades. Pipelines de CI/CD para integración y despliegue, e infraestructura en Railway con ambientes de desarrollo y producción.",
       "highlights": [
-        "Golang",
+        "Go",
+        "CI/CD",
+        "Railway"
+      ],
+      "url": "",
+      "github": ""
+    },
+    {
+      "name": "Flex Pilates",
+      "description": "Sistema de gestión para gimnasio. Diseño e implementación del backend en Go para gestión de usuarios, citas, roles y operaciones administrativas. Construcción de APIs REST para integración con frontend web y aplicación móvil. Integración de frontend Angular y aplicación móvil Ionic con servicios backend. Desarrollo de landing page optimizada en Astro y despliegue de servicios en Railway.",
+      "highlights": [
+        "Go",
         "Angular",
         "Ionic",
         "Astro",
@@ -79,11 +90,13 @@
     },
     {
       "name": "Bioguard AI",
-      "description": "Aplicación de análisis microbiológico. Desarrollo de backend en FastAPI para procesamiento de imágenes. Integración de app móvil (Ionic) con APIs backend. Implementación de lógica de inteligencia artificial para conteo de colonias bacterianas. Despliegue en Railway.",
+      "description": "Aplicación de análisis microbiológico. Desarrollo inicial del backend en FastAPI para procesamiento de imágenes y exposición de servicios mediante APIs REST. Migración completa de la API de Python/FastAPI a Go, rediseñando el backend para mejorar rendimiento, eficiencia y mantenibilidad. Integración de aplicación móvil Ionic con servicios backend para carga, procesamiento y visualización de resultados. Implementación de lógica de inteligencia artificial para conteo asistido de colonias bacterianas. Despliegue y mantenimiento del backend en Railway para pruebas operativas.",
       "highlights": [
+        "Go",
         "FastAPI",
+        "Python",
         "Ionic",
-        "Inteligencia Artificial",
+        "IA",
         "Railway"
       ],
       "url": "",
@@ -91,17 +104,17 @@
     },
     {
       "name": "PROJAH",
-      "description": "Sitio web corporativo para catálogo de productos. Desarrollo con Astro optimizado para SEO y rendimiento. Supabase para base de datos y autenticación.",
+      "description": "Sitio web corporativo para catálogo de productos, comunicación institucional y presencia digital. Desarrollo con Astro, optimizado para SEO y rendimiento. Configuración de correos corporativos, dominios y servicios empresariales mediante Microsoft 365.",
       "highlights": [
         "Astro",
-        "Supabase"
+        "Microsoft 365"
       ],
       "url": "https://corpoprojah.com/",
       "github": ""
     },
     {
       "name": "HUEC",
-      "description": "Sitio web institucional para la Conferencia HUEC 1953. Desarrollo con Astro para presencia digital y difusión de eventos. Configuración de correos corporativos mediante Microsoft 365.",
+      "description": "Sitio web institucional para la Conferencia HUEC 1953. Desarrollo con Astro para presencia digital y difusión de eventos. Configuración de correos corporativos, dominios y servicios empresariales mediante Microsoft 365.",
       "highlights": [
         "Astro",
         "Microsoft 365"
@@ -111,11 +124,11 @@
     },
     {
       "name": "Repositorio de Laboratorio de Archivos",
-      "description": "Material educativo técnico. Desarrollo de repositorio educativo con ejemplos prácticos en Golang enfocados en manejo de archivos y estructuras de almacenamiento. Implementación de más de 11 casos prácticos cubriendo lectura/escritura, estructuras de datos persistentes y simulación de sistemas de archivos. Documentación técnica estructurada para aprendizaje autónomo.",
+      "description": "Material educativo técnico. Desarrollo de repositorio educativo con ejemplos prácticos en Go enfocados en manejo de archivos y estructuras de almacenamiento. Implementación de más de 11 casos prácticos cubriendo lectura/escritura, estructuras persistentes y simulación de sistemas de archivos. Publicación de documentación técnica estructurada como sitio web y repositorio en GitHub.",
       "highlights": [
-        "11+ ejemplos de código",
-        "Golang",
-        "Documentación completa"
+        "Go",
+        "Markdown",
+        "GitHub Pages"
       ],
       "url": "https://keviingarciah.github.io/MIA_LAB_1S_2025/",
       "github": "https://github.com/keviingarciah/MIA_LAB_1S_2025"
@@ -141,13 +154,19 @@
       "name": "Angular"
     },
     {
-      "name": "Astro"
-    },
-    {
       "name": "Ionic"
     },
     {
+      "name": "Astro"
+    },
+    {
       "name": "TailwindCSS"
+    },
+    {
+      "name": "HTML"
+    },
+    {
+      "name": "CSS"
     },
     {
       "name": "Node"
@@ -191,18 +210,18 @@
   ],
   "publications": [
     {
-      "name": "IA en simulaciones virtuales: Transformando la ingeniería de proyectos reales",
+      "name": "IA en simulaciones virtuales",
       "publisher": "Revista ECYS",
       "releaseDate": "2025-01-01",
       "url": "https://revistaecys.github.io/26edicion/T2_pareja07.html",
-      "summary": "Uso de inteligencia artificial en simulaciones aplicadas a ingeniería."
+      "summary": "Artículo sobre uso de inteligencia artificial en simulaciones aplicadas a ingeniería."
     },
     {
-      "name": "IA en requerimientos de software: Maximización en la ingeniería de requerimientos",
+      "name": "IA en requerimientos de software",
       "publisher": "Revista ECYS",
       "releaseDate": "2024-01-01",
       "url": "https://revistaecys.github.io/25Edicion/15_pareja33.html",
-      "summary": "Aplicación de IA en análisis y optimización de requerimientos."
+      "summary": "Artículo sobre aplicación de IA en análisis y optimización de requerimientos de software."
     }
   ]
 }

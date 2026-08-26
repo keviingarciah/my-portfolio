@@ -16,13 +16,17 @@ import { projects } from "@/cv-es.json";
               <header>
                 <h3>
                   <div class="title">
-                    <a
-                      href={url}
-                      target="_blank"
-                      title={`Ver el proyecto ${name}`}
-                    >
-                      {name}
-                    </a>
+                    {url ? (
+                      <a
+                        href={url}
+                        target="_blank"
+                        title={`Ver el proyecto ${name}`}
+                      >
+                        {name}
+                      </a>
+                    ) : (
+                      name
+                    )}
                     {github && (
                       <a
                         class="github-code-link"

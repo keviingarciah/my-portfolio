@@ -8,9 +8,8 @@ import { work } from "@/cv-es.json";
   <ul>
     {
       work.map(({ name, startDate, endDate, position, summary }) => {
-        const starYear = new Date(startDate).getFullYear();
-        const endYear =
-          endDate !== null ? new Date(endDate).getFullYear() : "Actualidad";
+        const starYear = startDate.slice(0, 4);
+        const endYear = endDate !== null ? endDate.slice(0, 4) : "Actualidad";
         const years = `${starYear} - ${endYear}`;
 
         return (
